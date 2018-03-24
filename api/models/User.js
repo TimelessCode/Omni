@@ -15,7 +15,7 @@ module.exports = {
 ,
     name: {
       type: 'string',
-      defaultsTo: 'no name given'
+      defaultsTo: ' '
     }
   }
 };

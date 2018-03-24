@@ -1,7 +1,7 @@
 /**
  * User.js
  *
- * @description :: TODO: You might write a short summary of how this model works and what it represents here.
+ * @description :: The model representing the user, contains points and the name of the user
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
  */
 
@@ -11,6 +11,11 @@ module.exports = {
     points: {
       type: 'integer',
       defaultsTo: 0,
+    }
+,
+    name: {
+      type: 'string',
+      defaultsTo: 'no name given'
     }
   }
 };
